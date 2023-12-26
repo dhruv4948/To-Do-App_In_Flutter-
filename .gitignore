@@ -42,3 +42,29 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+
+# Flutter/Dart specific
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/flutter_assets/
+
+# macOS specific files
+**/macos/Pods/
+**/macos/Flutter/Flutter.xcworkspace/
+
+# Android specific files
+**/android/build/
+**/android/app/build/
+
+# VS Code specific files
+.vscode/
+
+# Android Studio/IntelliJ specific files
+.idea/
+
+# Dart pub package directory
+**/pubspec.lock
+**/pubspec.yaml.lock
+**/pubspec.yaml
